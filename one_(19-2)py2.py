@@ -5,7 +5,9 @@
 # =====================================================================
 
 from PyQt4 import QtCore, QtGui
-import sys
+import sys, os
+
+print os.path
 
 app = QtGui.QApplication(sys.argv)
 window = QtGui.QWidget()
